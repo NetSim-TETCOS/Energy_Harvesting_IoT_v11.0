@@ -1,0 +1,24 @@
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(377,5): warning MSB8004: Output Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Output Directory.
+  BatteryModel.c
+f:\fileexchangeprojectsv11\energy_harvesting_iot\energy_harvesting_v11\64bit\code\batterymodel\batterymodel.c(394): warning C4716: 'battery_energy_harvesting': must return a value
+BatteryModel.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/INCREMENTAL:NO' specification
+     Creating library ..\Dll\BatteryModel.lib and object ..\Dll\BatteryModel.exp
+BatteryModel.obj : error LNK2019: unresolved external symbol _fnpAllocateMemory_dbg referenced in function _addInMetricsHeading
+BatteryModel.obj : error LNK2019: unresolved external symbol _fnpReAllocateMemory_dbg referenced in function _add_to_mode_list
+BatteryModel.obj : error LNK2019: unresolved external symbol _fnpFreeMemory_dbg referenced in function _battery_free
+BatteryModel.obj : error LNK2019: unresolved external symbol __strdup_dbg1 referenced in function _battery_add_new_mode
+BatteryModel.obj : error LNK2019: unresolved external symbol _init_metrics_node referenced in function _battery_metrics
+BatteryModel.obj : error LNK2019: unresolved external symbol _add_table_heading_special referenced in function _battery_metrics
+BatteryModel.obj : error LNK2019: unresolved external symbol _add_table_row_formatted referenced in function _add_to_table
+BatteryModel.obj : error LNK2019: unresolved external symbol _add_node_to_menu referenced in function _battery_metrics
+BatteryModel.obj : error LNK2019: unresolved external symbol _write_metrics_node referenced in function _battery_metrics
+BatteryModel.obj : error LNK2019: unresolved external symbol _anim_add_new_menu referenced in function _battery_add_to_animation
+BatteryModel.obj : error LNK2019: unresolved external symbol _animation_add_new_entry referenced in function _battery_set_mode
+BatteryModel.obj : error LNK2001: unresolved external symbol __imp__NETWORK
+BatteryModel.obj : error LNK2001: unresolved external symbol __imp__pstruEventDetails
+..\lib\MemoryBlock.lib : warning LNK4272: library machine type 'x64' conflicts with target machine type 'x86'
+..\lib\IP_Addressing.lib : warning LNK4272: library machine type 'x64' conflicts with target machine type 'x86'
+..\lib\Animation.lib : warning LNK4272: library machine type 'x64' conflicts with target machine type 'x86'
+..\lib\NetworkStack.lib : warning LNK4272: library machine type 'x64' conflicts with target machine type 'x86'
+..\lib\Metrics.lib : warning LNK4272: library machine type 'x64' conflicts with target machine type 'x86'
+..\Dll\BatteryModel.dll : fatal error LNK1120: 13 unresolved externals
